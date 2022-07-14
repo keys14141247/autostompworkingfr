@@ -1,4 +1,4 @@
-script.Parent.MouseButton1Click:Connect(function()
+
 	if script.Parent.Text == "AutoStomp" then
 		script.Parent.Text = "UnAutoStomp"
 		script.Parent.Check.Image = "rbxassetid://10221330509"
@@ -25,4 +25,3 @@ script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Check.Image = "rbxassetid://10221453823"
 		_G.drop = false
 	end
-end)
